@@ -8,14 +8,19 @@
 
 import UIKit
 
+
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, ESTBeaconManagerDelegate {
 
     var window: UIWindow?
-
-
+    
+    // 2. Add a property to hold the beacon manager and instantiate it
+    let beaconManager = ESTBeaconManager()
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        // 3. Set the beacon manager's delegate
+        self.beaconManager.delegate = self
+        
         return true
     }
 

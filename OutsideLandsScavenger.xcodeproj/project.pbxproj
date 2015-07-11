@@ -31,7 +31,8 @@
 		0D1E390498DE7F64CAC5C76B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		372575757F1BEA3196EE5AF7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		5F14BF3722B5670545DBB57F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		9D4BA2E01B51D6810069598B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		9D4BA2E01B51D6810069598B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D4BA2E21B51D8C10069598B /* OutsideLandsScavenger_Bridging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutsideLandsScavenger_Bridging.h; sourceTree = "<group>"; };
 		D2A1310A1B51BAAE00892436 /* OutsideLandsScavenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OutsideLandsScavenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A1310E1B51BAAE00892436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2A1310F1B51BAAE00892436 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +102,7 @@
 				D2A131161B51BAAE00892436 /* Images.xcassets */,
 				D2A131181B51BAAE00892436 /* LaunchScreen.xib */,
 				D2A1310D1B51BAAE00892436 /* Supporting Files */,
+				9D4BA2E21B51D8C10069598B /* OutsideLandsScavenger_Bridging.h */,
 			);
 			path = OutsideLandsScavenger;
 			sourceTree = "<group>";
@@ -409,6 +411,7 @@
 				INFOPLIST_FILE = OutsideLandsScavenger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/OutsideLandsScavenger_Bridging.H";
 			};
 			name = Debug;
 		};
@@ -420,6 +423,7 @@
 				INFOPLIST_FILE = OutsideLandsScavenger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/OutsideLandsScavenger_Bridging.H";
 			};
 			name = Release;
 		};
