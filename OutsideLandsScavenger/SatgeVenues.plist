@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Sutro Stage</key>
+	<dict/>
+	<key>Land End Stage</key>
+	<dict>
+		<key>Schedule</key>
+		<dict>
+			<key>10:00 AM - THE BLACK KEYS</key>
+			<string></string>
+			<key>12:00 PM - KENDRICK LAMAR</key>
+			<string></string>
+			<key>2:00 PM - ELTON JOHN</key>
+			<string></string>
+		</dict>
+	</dict>
+</dict>
+</plist>
