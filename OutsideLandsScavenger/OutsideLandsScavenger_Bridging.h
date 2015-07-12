@@ -10,5 +10,6 @@
 #define OutsideLandsScavenger_OutsideLandsScavenger_Bridging_h
 
 #import <EstimoteSDK/EstimoteSDK.h>
+#import <AFNetworking/AFNetworking.h>
 
 #endif
