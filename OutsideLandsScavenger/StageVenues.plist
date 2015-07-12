@@ -3,7 +3,41 @@
 <plist version="1.0">
 <dict>
 	<key>Sutro Stage</key>
-	<dict/>
+	<dict>
+		<key>Schedule</key>
+		<array>
+			<dict>
+				<key>Time</key>
+				<date>2015-08-07T17:00:00Z</date>
+				<key>Artist</key>
+				<string>HOT CHIP</string>
+			</dict>
+			<dict>
+				<key>Time</key>
+				<date>2015-08-07T19:00:00Z</date>
+				<key>Artist</key>
+				<string>CARIBOU</string>
+			</dict>
+			<dict>
+				<key>Time</key>
+				<date>2015-08-07T21:00:00Z</date>
+				<key>Artist</key>
+				<string>THE DEVIL MAKES THREE</string>
+			</dict>
+			<dict>
+				<key>Time</key>
+				<date>2015-08-07T23:00:00Z</date>
+				<key>Artist</key>
+				<string>NATE RUESS</string>
+			</dict>
+			<dict>
+				<key>Time</key>
+				<date>2015-08-07T21:00:00Z</date>
+				<key>Artist</key>
+				<string>ODESZA</string>
+			</dict>
+		</array>
+	</dict>
 	<key>Land End Stage</key>
 	<dict>
 		<key>Schedule</key>
@@ -25,6 +59,18 @@
 				<date>2015-08-07T21:00:00Z</date>
 				<key>Artist</key>
 				<string>ELTON JOHN</string>
+			</dict>
+			<dict>
+				<key>Time</key>
+				<date>2015-08-07T23:00:00Z</date>
+				<key>Artist</key>
+				<string>SAM SMITH</string>
+			</dict>
+			<dict>
+				<key>Time</key>
+				<date>2015-08-07T21:00:00Z</date>
+				<key>Artist</key>
+				<string>SLIGHTLY STOOPID</string>
 			</dict>
 		</array>
 	</dict>
