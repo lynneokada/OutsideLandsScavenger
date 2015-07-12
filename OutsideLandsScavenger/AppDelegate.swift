@@ -14,12 +14,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate, ESTBeaconManagerDelegate 
 
     var window: UIWindow?
     
-    // 2. Add a property to hold the beacon manager and instantiate it
     let beaconManager = ESTBeaconManager()
     
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // 3. Set the beacon manager's delegate
-        self.beaconManager.delegate = self
+    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {self.beaconManager.delegate = self
+        self.beaconManager.requestAlwaysAuthorization()
+
+        // Mint iBeacon
+        self.beaconManager.startMonitoringForRegion(CLBeaconRegion(
+            proximityUUID: NSUUID(UUIDString: "B9407F30-F5F8-466E-AFF9-25556B57FE6D"),
+            major: 20062, minor: 63126, identifier: "monitored region"))
         
         return true
     }
