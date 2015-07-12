@@ -13,6 +13,10 @@
 		4993744D1B523B4E00E83D02 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4993744C1B523B4E00E83D02 /* AVFoundation.framework */; };
 		4993744F1B523B6300E83D02 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4993744E1B523B6300E83D02 /* CoreMedia.framework */; };
 		499374511B523BD400E83D02 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 499374501B523BD400E83D02 /* libstdc++.dylib */; };
+		499374891B52895900E83D02 /* bands in Resources */ = {isa = PBXBuildFile; fileRef = 499374881B52895900E83D02 /* bands */; };
+		4993748B1B52896900E83D02 /* Bands.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4993748A1B52896900E83D02 /* Bands.plist */; };
+		4993748E1B52897700E83D02 /* OutsideTimeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4993748C1B52897700E83D02 /* OutsideTimeCollectionViewCell.swift */; };
+		4993748F1B52897700E83D02 /* OutsideTimeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4993748D1B52897700E83D02 /* OutsideTimeCollectionViewController.swift */; };
 		603A48CE0E6EE5CF913397D8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D1E390498DE7F64CAC5C76B /* libPods.a */; };
 		9D4BA2E11B51D6810069598B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9D4BA2E01B51D6810069598B /* Podfile */; };
 		9D5D8C0C1B5220870023F365 /* StageVenues.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D5D8C0B1B5220870023F365 /* StageVenues.plist */; };
@@ -44,6 +48,10 @@
 		4993744C1B523B4E00E83D02 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		4993744E1B523B6300E83D02 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		499374501B523BD400E83D02 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		499374881B52895900E83D02 /* bands */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bands; sourceTree = "<group>"; };
+		4993748A1B52896900E83D02 /* Bands.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Bands.plist; sourceTree = "<group>"; };
+		4993748C1B52897700E83D02 /* OutsideTimeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutsideTimeCollectionViewCell.swift; sourceTree = "<group>"; };
+		4993748D1B52897700E83D02 /* OutsideTimeCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutsideTimeCollectionViewController.swift; sourceTree = "<group>"; };
 		5F14BF3722B5670545DBB57F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		9D4BA2E01B51D6810069598B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D4BA2E21B51D8C10069598B /* OutsideLandsScavenger_Bridging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutsideLandsScavenger_Bridging.h; sourceTree = "<group>"; };
@@ -129,6 +137,10 @@
 				D2A131131B51BAAE00892436 /* Main.storyboard */,
 				D2A131161B51BAAE00892436 /* Images.xcassets */,
 				D2A131181B51BAAE00892436 /* LaunchScreen.xib */,
+				4993748C1B52897700E83D02 /* OutsideTimeCollectionViewCell.swift */,
+				4993748D1B52897700E83D02 /* OutsideTimeCollectionViewController.swift */,
+				4993748A1B52896900E83D02 /* Bands.plist */,
+				499374881B52895900E83D02 /* bands */,
 				D2A1310D1B51BAAE00892436 /* Supporting Files */,
 				9D4BA2E21B51D8C10069598B /* OutsideLandsScavenger_Bridging.h */,
 			);
@@ -258,6 +270,8 @@
 				D2A1311A1B51BAAE00892436 /* LaunchScreen.xib in Resources */,
 				9D4BA2E11B51D6810069598B /* Podfile in Resources */,
 				9D5D8C0C1B5220870023F365 /* StageVenues.plist in Resources */,
+				499374891B52895900E83D02 /* bands in Resources */,
+				4993748B1B52896900E83D02 /* Bands.plist in Resources */,
 				D2A131171B51BAAE00892436 /* Images.xcassets in Resources */,
 				D2A131301B521A5B00892436 /* OutsideHunts120x120.png in Resources */,
 			);
@@ -311,7 +325,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2A131121B51BAAE00892436 /* ViewController.swift in Sources */,
+				4993748E1B52897700E83D02 /* OutsideTimeCollectionViewCell.swift in Sources */,
 				499374471B523A1E00E83D02 /* GNHelper.swift in Sources */,
+				4993748F1B52897700E83D02 /* OutsideTimeCollectionViewController.swift in Sources */,
 				D2A131101B51BAAE00892436 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

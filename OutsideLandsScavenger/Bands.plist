@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>file_path</key>
+		<string>mumford</string>
+		<key>name</key>
+		<string>Mumford &amp; Sons
+Mumford &amp; Sons</string>
+	</dict>
+	<dict>
+		<key>file_path</key>
+		<string>wilco</string>
+		<key>name</key>
+		<string>Wilco</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Amon Tobin : Isam 2.0</string>
+		<key>file_path</key>
+		<string>amon</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>D’angelo and the Vanguard</string>
+		<key>file_path</key>
+		<string>dangelo</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>St. Vincent</string>
+		<key>file_path</key>
+		<string>vincent</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Porter Robinson</string>
+		<key>file_path</key>
+		<string>porter</string>
+	</dict>
+</array>
+</plist>

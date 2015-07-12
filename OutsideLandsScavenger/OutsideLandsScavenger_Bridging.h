@@ -11,5 +11,6 @@
 
 #import <EstimoteSDK/EstimoteSDK.h>
 #import <AFNetworking/AFNetworking.h>
+#import <GnSDKObjC/Gn.h>
 
 #endif
