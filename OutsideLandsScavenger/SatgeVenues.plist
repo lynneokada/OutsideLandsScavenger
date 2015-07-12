@@ -6,15 +6,27 @@
 	<dict/>
 	<key>Land End Stage</key>
 	<dict>
-		<key>Schedule</key>
-		<dict>
-			<key>10:00 AM - THE BLACK KEYS</key>
-			<string></string>
-			<key>12:00 PM - KENDRICK LAMAR</key>
-			<string></string>
-			<key>2:00 PM - ELTON JOHN</key>
-			<string></string>
-		</dict>
+		<key>Schedules</key>
+		<array>
+			<dict>
+				<key>Time</key>
+				<date>2015-08-07T17:00:00Z</date>
+				<key>Artist</key>
+				<string>THE BLACK KEYS</string>
+			</dict>
+			<dict>
+				<key>Time</key>
+				<date>2015-08-07T19:00:00Z</date>
+				<key>Artist</key>
+				<string>KENDRICK LAMAR</string>
+			</dict>
+			<dict>
+				<key>Time</key>
+				<date>2015-08-07T21:00:00Z</date>
+				<key>Artist</key>
+				<string>ELTON JOHN</string>
+			</dict>
+		</array>
 	</dict>
 </dict>
 </plist>
