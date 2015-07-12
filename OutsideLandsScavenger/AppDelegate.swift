@@ -15,7 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, ESTBeaconManagerDelegate 
     
     let beaconManager = ESTBeaconManager()
     
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {self.beaconManager.delegate = self
+    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        self.beaconManager.delegate = self
         self.beaconManager.requestAlwaysAuthorization()
 
         // Mint iBeacon
