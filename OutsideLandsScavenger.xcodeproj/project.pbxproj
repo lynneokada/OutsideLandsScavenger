@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		499374471B523A1E00E83D02 /* GNHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499374461B523A1E00E83D02 /* GNHelper.swift */; };
+		499374491B523AEF00E83D02 /* GnSDKObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499374481B523AEF00E83D02 /* GnSDKObjC.framework */; };
+		4993744B1B523B3600E83D02 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4993744A1B523B3600E83D02 /* AudioToolbox.framework */; };
+		4993744D1B523B4E00E83D02 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4993744C1B523B4E00E83D02 /* AVFoundation.framework */; };
+		4993744F1B523B6300E83D02 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4993744E1B523B6300E83D02 /* CoreMedia.framework */; };
+		499374511B523BD400E83D02 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 499374501B523BD400E83D02 /* libstdc++.dylib */; };
 		603A48CE0E6EE5CF913397D8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D1E390498DE7F64CAC5C76B /* libPods.a */; };
 		9D4BA2E11B51D6810069598B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9D4BA2E01B51D6810069598B /* Podfile */; };
 		9D5D8C0C1B5220870023F365 /* StageVenues.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D5D8C0B1B5220870023F365 /* StageVenues.plist */; };
@@ -32,6 +38,12 @@
 /* Begin PBXFileReference section */
 		0D1E390498DE7F64CAC5C76B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		372575757F1BEA3196EE5AF7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		499374461B523A1E00E83D02 /* GNHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GNHelper.swift; sourceTree = "<group>"; };
+		499374481B523AEF00E83D02 /* GnSDKObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GnSDKObjC.framework; sourceTree = "<group>"; };
+		4993744A1B523B3600E83D02 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4993744C1B523B4E00E83D02 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4993744E1B523B6300E83D02 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		499374501B523BD400E83D02 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
 		5F14BF3722B5670545DBB57F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		9D4BA2E01B51D6810069598B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D4BA2E21B51D8C10069598B /* OutsideLandsScavenger_Bridging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutsideLandsScavenger_Bridging.h; sourceTree = "<group>"; };
@@ -54,6 +66,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				499374511B523BD400E83D02 /* libstdc++.dylib in Frameworks */,
+				4993744F1B523B6300E83D02 /* CoreMedia.framework in Frameworks */,
+				4993744D1B523B4E00E83D02 /* AVFoundation.framework in Frameworks */,
+				4993744B1B523B3600E83D02 /* AudioToolbox.framework in Frameworks */,
+				499374491B523AEF00E83D02 /* GnSDKObjC.framework in Frameworks */,
 				603A48CE0E6EE5CF913397D8 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,6 +88,11 @@
 		ACCB8A1C69F771DBD5A40720 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				499374501B523BD400E83D02 /* libstdc++.dylib */,
+				4993744E1B523B6300E83D02 /* CoreMedia.framework */,
+				4993744C1B523B4E00E83D02 /* AVFoundation.framework */,
+				4993744A1B523B3600E83D02 /* AudioToolbox.framework */,
+				499374481B523AEF00E83D02 /* GnSDKObjC.framework */,
 				0D1E390498DE7F64CAC5C76B /* libPods.a */,
 			);
 			name = Frameworks;
@@ -102,6 +124,7 @@
 			children = (
 				D2A1310F1B51BAAE00892436 /* AppDelegate.swift */,
 				D2A131111B51BAAE00892436 /* ViewController.swift */,
+				499374461B523A1E00E83D02 /* GNHelper.swift */,
 				D2A131131B51BAAE00892436 /* Main.storyboard */,
 				D2A131161B51BAAE00892436 /* Images.xcassets */,
 				D2A131181B51BAAE00892436 /* LaunchScreen.xib */,
@@ -286,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2A131121B51BAAE00892436 /* ViewController.swift in Sources */,
+				499374471B523A1E00E83D02 /* GNHelper.swift in Sources */,
 				D2A131101B51BAAE00892436 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
