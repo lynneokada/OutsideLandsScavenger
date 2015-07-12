@@ -1,10 +1,13 @@
 PODS:
+  - Alamofire (1.2.3)
   - EstimoteSDK (3.2.11)
 
 DEPENDENCIES:
+  - Alamofire (~> 1.2)
   - EstimoteSDK
 
 SPEC CHECKSUMS:
+  Alamofire: 5550bf0b575ed1a4bf9be572f9463e1015cc169e
   EstimoteSDK: bc1d0704a7825a23741cfed19f61ba646a22dc95
 
-COCOAPODS: 0.37.1
+COCOAPODS: 0.35.0
