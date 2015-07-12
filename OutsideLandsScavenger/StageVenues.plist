@@ -6,7 +6,7 @@
 	<dict/>
 	<key>Land End Stage</key>
 	<dict>
-		<key>Schedules</key>
+		<key>Schedule</key>
 		<array>
 			<dict>
 				<key>Time</key>
