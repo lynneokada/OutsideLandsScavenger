@@ -15,6 +15,7 @@
 		D2A131171B51BAAE00892436 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A131161B51BAAE00892436 /* Images.xcassets */; };
 		D2A1311A1B51BAAE00892436 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2A131181B51BAAE00892436 /* LaunchScreen.xib */; };
 		D2A131261B51BAAE00892436 /* OutsideLandsScavengerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A131251B51BAAE00892436 /* OutsideLandsScavengerTests.swift */; };
+		D2A131301B521A5B00892436 /* OutsideHunts120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A1312F1B521A5B00892436 /* OutsideHunts120x120.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		D2A1311F1B51BAAE00892436 /* OutsideLandsScavengerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OutsideLandsScavengerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A131241B51BAAE00892436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2A131251B51BAAE00892436 /* OutsideLandsScavengerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutsideLandsScavengerTests.swift; sourceTree = "<group>"; };
+		D2A1312F1B521A5B00892436 /* OutsideHunts120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OutsideHunts120x120.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 		D2A1310D1B51BAAE00892436 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D2A1312F1B521A5B00892436 /* OutsideHunts120x120.png */,
 				D2A1310E1B51BAAE00892436 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -227,6 +230,7 @@
 				D2A1311A1B51BAAE00892436 /* LaunchScreen.xib in Resources */,
 				9D4BA2E11B51D6810069598B /* Podfile in Resources */,
 				D2A131171B51BAAE00892436 /* Images.xcassets in Resources */,
+				D2A131301B521A5B00892436 /* OutsideHunts120x120.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
