@@ -24,8 +24,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate, ESTBeaconManagerDelegate 
             proximityUUID: NSUUID(UUIDString: "B9407F30-F5F8-466E-AFF9-25556B57FE6D"),
             major: 20062, minor: 63126, identifier: "monitored region"))
         
+        UIApplication.sharedApplication().registerUserNotificationSettings(
+            UIUserNotificationSettings(forTypes: .Alert, categories: nil))
+        
         return true
     }
+    
+    func beaconManager(manager: AnyObject!, didEnterRegion region: CLBeaconRegion!) {
+        let notification = UILocalNotification()
+        notification.alertBody =
+            "You are near the Lands End Stage. " +
+        "Would you like more info about the artist preforming?"
+        UIApplication.sharedApplication().presentLocalNotificationNow(notification)
+    }
+    
 
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
