@@ -8,11 +8,30 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, UITabBarControllerDelegate, UITableViewDataSource {
+    
+    @IBOutlet weak var scheduleTableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.scheduleTableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        self.scheduleTableView.rowHeight = 80.0
+        
+        var times: [String] = ["1:00","2:00","3:00"]
+    }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 24
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        
+        return UITableViewCell()
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
     }
 
     override func didReceiveMemoryWarning() {

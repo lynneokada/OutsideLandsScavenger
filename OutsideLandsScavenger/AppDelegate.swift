@@ -33,8 +33,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, ESTBeaconManagerDelegate 
     func beaconManager(manager: AnyObject!, didEnterRegion region: CLBeaconRegion!) {
         let notification = UILocalNotification()
         notification.alertBody =
-            "You are near the Lands End Stage. " +
-        "Would you like more info about the artist preforming?"
+            "You're near the Lands End Stage! 😝 " +
+        "Want to know more about this artist!?"
         UIApplication.sharedApplication().presentLocalNotificationNow(notification)
     }
     

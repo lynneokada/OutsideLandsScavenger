@@ -47,6 +47,7 @@
 		D2A131241B51BAAE00892436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2A131251B51BAAE00892436 /* OutsideLandsScavengerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutsideLandsScavengerTests.swift; sourceTree = "<group>"; };
 		D2A1312F1B521A5B00892436 /* OutsideHunts120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OutsideHunts120x120.png; sourceTree = "<group>"; };
+		D2A131321B523D8F00892436 /* cubano-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "cubano-regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				D2A1312F1B521A5B00892436 /* OutsideHunts120x120.png */,
+				D2A131321B523D8F00892436 /* cubano-regular.ttf */,
 				D2A1310E1B51BAAE00892436 /* Info.plist */,
 				9D5D8C0B1B5220870023F365 /* StageVenues.plist */,
 			);
